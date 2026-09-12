@@ -100,7 +100,7 @@ navBtn.addEventListener("click", () => {
 const contactForm = document.getElementById("contactForm");
 
 contactForm.addEventListener("submit", function (e) {
-  e.preventDefault();
+   e.preventDefault();
 
   const name = contactForm.querySelector('input[type="text"]').value;
   const phone = contactForm.querySelector('input[type="tel"]').value;
