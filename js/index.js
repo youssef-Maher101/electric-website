@@ -95,60 +95,35 @@ navBtn.addEventListener("click", () => {
   });
 });
 
-// let student = [
-//   { name: "youssef", degree: 90 },
-//   { name: "omar", degree: 80 },
-//   { name: "ali", degree: 70 },
-//   { name: "said", degree: 60 },
-//   { name: "hany", degree: 40 },
-//   { name: "said", degree: 70 },
-// ];
+/***********************************************/
 
-// /******************1************ */
-// let names = student.map((student) => student.name);
-// console.log(names);
+const contactForm = document.getElementById("contactForm");
 
-// /*****************2******************* */
+contactForm.addEventListener("submit", function (e) {
+  e.preventDefault();
 
-// let passed = student.filter((student) => student.degree >= 50);
-// console.log(passed);
+  const name = contactForm.querySelector('input[type="text"]').value;
+  const phone = contactForm.querySelector('input[type="tel"]').value;
+  const service = contactForm.querySelector("select").value;
+  const details = contactForm.querySelector("textarea").value;
 
-// /*******************3****************** */
+  const message = `
+مرحبًا محسن الونش 
 
-// let specialStudent = student.find((student) => student.degree == 90);
-// console.log(specialStudent);
+أرغب في طلب خدمة كهرباء
 
-// /*******************4******************************* */
+ الاسم: ${name}
+ رقم الهاتف: ${phone}
+ الخدمة المطلوبة: ${service}
 
-// let faild = student.some((student) => student.degree < 50);
-// console.log(faild);
+ تفاصيل الطلب:
+${details}
+`;
 
-// /**********************5**************************** */
+  const whatsappNumber = "201206591193";
 
-// let allPassed= student.every((student) => student.degree >= 50);
-// console.log(allPassed);
+  const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
-// /**********************6...7********************** */
+  window.open(whatsappURL, "_blank");
+});
 
-// let total = student.reduce((sum ,student) =>{
-//     return sum+student.degree;
-
-// },0);
-
-// console.log(total);
-
-// let avg = total/student.length;
-
-// console.log(avg);
-
-// // /*********************8****************************** */
-
-// let highest= student.sort((a,b)=>{
-//     return b.degree-a.degree;
-// })
-
-// console.log(highest);
-
-//لو دوست ع الزرار بتاع شاهد اعمالنا
-// خلي  كلمه اعمالنا الي في الناف
-//  تبقي اكتيف وشيل الاكتيف من ع الرئيسيه
