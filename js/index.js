@@ -95,12 +95,12 @@ navBtn.addEventListener("click", () => {
   });
 });
 
-/***********************************************/
+/*************************************** */
 
 const contactForm = document.getElementById("contactForm");
 
 contactForm.addEventListener("submit", function (e) {
-   e.preventDefault();
+  e.preventDefault();
 
   const name = contactForm.querySelector('input[type="text"]').value;
   const phone = contactForm.querySelector('input[type="tel"]').value;
@@ -127,3 +127,60 @@ ${details}
   window.open(whatsappURL, "_blank");
 });
 
+// let student = [
+//   { name: "youssef", degree: 90 },
+//   { name: "omar", degree: 80 },
+//   { name: "ali", degree: 70 },
+//   { name: "said", degree: 60 },
+//   { name: "hany", degree: 40 },
+//   { name: "said", degree: 70 },
+// ];
+
+// /******************1************ */
+// let names = student.map((student) => student.name);
+// console.log(names);
+
+// /*****************2******************* */
+
+// let passed = student.filter((student) => student.degree >= 50);
+// console.log(passed);
+
+// /*******************3****************** */
+
+// let specialStudent = student.find((student) => student.degree == 90);
+// console.log(specialStudent);
+
+// /*******************4******************************* */
+
+// let faild = student.some((student) => student.degree < 50);
+// console.log(faild);
+
+// /**********************5**************************** */
+
+// let allPassed= student.every((student) => student.degree >= 50);
+// console.log(allPassed);
+
+// /**********************6...7********************** */
+
+// let total = student.reduce((sum ,student) =>{
+//     return sum+student.degree;
+
+// },0);
+
+// console.log(total);
+
+// let avg = total/student.length;
+
+// console.log(avg);
+
+// // /*********************8****************************** */
+
+// let highest= student.sort((a,b)=>{
+//     return b.degree-a.degree;
+// })
+
+// console.log(highest);
+
+//لو دوست ع الزرار بتاع شاهد اعمالنا
+// خلي  كلمه اعمالنا الي في الناف
+//  تبقي اكتيف وشيل الاكتيف من ع الرئيسيه
