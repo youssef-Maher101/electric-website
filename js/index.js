@@ -37,19 +37,17 @@ allLinks.forEach((link) => {
   });
 });
 
-// Toggle
 
+/*================== Navigation ====================*/
 function openMobileNav() {
   navMenu.classList.add("active");
   navToggle.classList.add("active");
-  navToggle.setAttribute("aria-expanded", "true");
   document.body.classList.add("nav-open");
 }
 
 function closeMobileNav() {
   navMenu.classList.remove("active");
   navToggle.classList.remove("active");
-  navToggle.setAttribute("aria-expanded", "false");
   document.body.classList.remove("nav-open");
 }
 
@@ -95,13 +93,12 @@ navBtn.addEventListener("click", () => {
   });
 });
 
-/*************************************** */
 
+
+/* ================== send massega on whats app ================== */
 const contactForm = document.getElementById("contactForm");
-
 contactForm.addEventListener("submit", function (e) {
   e.preventDefault();
-
   const name = contactForm.querySelector('input[type="text"]').value;
   const phone = contactForm.querySelector('input[type="tel"]').value;
   const service = contactForm.querySelector("select").value;
@@ -126,6 +123,22 @@ ${details}
 
   window.open(whatsappURL, "_blank");
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let student = [
 //   { name: "youssef", degree: 90 },
