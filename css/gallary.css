@@ -259,7 +259,7 @@
   border-radius: 14px;
   box-shadow: 0 30px 90px rgba(0, 0, 0, 0.75);
   transform: scale(0.94);
-  transition: 0.35s ease;
+  transition: transform 0.35s ease, opacity 0.12s ease;
 }
 .lightbox.active img {
   transform: scale(1);
@@ -340,6 +340,13 @@
 }
 .lightbox-play:hover {
   transform: translateX(-50%) scale(1.08);
+}
+/* الحالة وقت السلايدر شغال */
+.lightbox-play.playing {
+  background: var(--yellow);
+  color: var(--bg-void);
+  border-color: var(--yellow);
+  box-shadow: 0 8px 25px rgba(255, 197, 43, 0.35);
 }
 /* =========================
    Tablet
