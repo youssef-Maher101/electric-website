@@ -473,91 +473,99 @@ const projects = [
 
     images: [
       {
-        image: "img/photo_2026-09-03_00-24-33.jpg",
+        //1
+        image: "img/bae79ef0f39c48a677ab41043dca6294.jpg",
         alt: "سبوتات داخل الجبس بورد",
         title: "تركيب سبوتات داخل الجبس بورد",
       },
 
       {
+        //2
         image: "img/photo_2026-09-03_00-24-26.jpg",
         alt: "إضاءة LED داخل الجبس",
         title: "تنفيذ إضاءة LED داخل الجبس",
       },
 
       {
+        //3
         image: "img/photo_2026-09-03_00-24-24.jpg",
         alt: "إضاءة مخفية بالجبس بورد",
         title: "تنفيذ إضاءة مخفية بالجبس بورد",
       },
 
       {
-        image: "img/photo_2026-09-03_00-24-23.jpg",
+        //4
+        image: "img/befc97804b142fb91d099411f4679154.jpg",
         alt: "سبوتات سقف جبس بورد",
         title: "تركيب سبوتات سقف جبس بورد",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        //5
+        image: "img/photo_2026-09-03_00-24-33.jpg ",
         alt: "إضاءة ديكورية بالجبس",
         title: "تنفيذ إضاءة ديكورية بالجبس",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+        //6
+        image: "img/5fdfe98db5a7e4e3f1096213dc893e9c.jpg",
         alt: "إضاءة سقف جبس بورد",
         title: "تنفيذ إضاءة سقف جبس بورد",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+        image: "img/6d7bf4f6b540a165ae3aef41ee97b84b.jpg",
         alt: "إضاءة LED مخفية",
         title: "تركيب إضاءة LED مخفية",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "img/9ee8982b4b02295961131797f509b9a5.jpg",
         alt: "سبوتات وإضاءة LED",
         title: "تنسيق السبوتات وإضاءة LED",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90",
+        image: "img/9a8b2d8500dc25359211dd426ea632ca.jpg",
         alt: "إضاءة ديكورية",
         title: "تنفيذ إضاءة ديكورية حديثة",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e",
+        image: "img/8bd9f954df0f15e7543de908a3f8f91c.jpg",
+
         alt: "إضاءة مخفية في السقف",
         title: "تركيب إضاءة مخفية في السقف",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        image: "img/34d4ffd5909503ee0bcf39141e205a06.jpg",
+
         alt: "سبوتات LED في الجبس",
         title: "تركيب سبوتات LED في الجبس",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        image: "img/19a7c93dfbc191b907a9c4bde3f6c551.jpg",
         alt: "إضاءة جبس بورد",
         title: "تنفيذ إضاءة جبس بورد ديكورية",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        image: "img/1863722ab52f6e61706ffbbb7a39b6c2.jpg",
         alt: "LED Profile داخل الجبس",
         title: "تركيب LED Profile داخل الجبس",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87",
+        image: "img/63cf6ea33463dbbf3f14a1616f5b3318.jpg",
         alt: "إضاءة جبس بورد حديثة",
         title: "تركيب إضاءة حديثة بالجبس بورد",
       },
 
       {
-        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+        image: "img/6471efa5920032c79de0bd113ad5f171.jpg",
         alt: "سبوتات وإضاءة مخفية",
         title: "تنفيذ سبوتات وإضاءة مخفية",
       },
@@ -636,8 +644,6 @@ if (selectedCategory === "all") {
   });
 
   displayProjects(galleryProjects);
-
-
 } else {
   const selectedProject = projects.find((project) => {
     return project.category === selectedCategory;
