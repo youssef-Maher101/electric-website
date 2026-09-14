@@ -636,14 +636,23 @@ if (selectedCategory === "all") {
   });
 
   displayProjects(galleryProjects);
-  
-} else {
 
+
+} else {
   const selectedProject = projects.find((project) => {
     return project.category === selectedCategory;
   });
 
-  galleryProjects = selectedProject ? selectedProject.images : [];
+  if (selectedProject) {
+    //عشان يجيب التايتل بتاع الصوره الي في الكاتجوري
+    selectedProject.images.forEach((image) => {
+      galleryProjects.push({
+        ...image,
+        category: selectedProject.title,
+      });
+    });
+  }
+
   displayProjects(galleryProjects);
 }
 /*=================== Slider ==============================*/
