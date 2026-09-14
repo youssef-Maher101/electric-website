@@ -37,7 +37,6 @@ allLinks.forEach((link) => {
   });
 });
 
-
 /*================== Navigation ====================*/
 function openMobileNav() {
   navMenu.classList.add("active");
@@ -93,8 +92,6 @@ navBtn.addEventListener("click", () => {
   });
 });
 
-
-
 /* ================== send massega on whats app ================== */
 const contactForm = document.getElementById("contactForm");
 contactForm.addEventListener("submit", function (e) {
@@ -127,7 +124,7 @@ ${details}
 
 
 
-/**select card by arrow */
+/** Select card by arrow */
 
 const galleryLinks = document.querySelectorAll(".work-arrow");
 
@@ -140,7 +137,16 @@ galleryLinks.forEach((link) => {
 });
 
 
+/******************************************************** */
 
+
+/** All Works */
+
+const allWorksBtn = document.getElementById("allWorksBtn");
+
+allWorksBtn.addEventListener("click", () => {
+  localStorage.setItem("galleryCategory", "all");
+});
 // let student = [
 //   { name: "youssef", degree: 90 },
 //   { name: "omar", degree: 80 },

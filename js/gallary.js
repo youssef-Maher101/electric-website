@@ -215,6 +215,7 @@ const projects = [
     ],
   },
 
+  /************************************************ */
   // Wiring
   {
     category: "wiring",
@@ -308,6 +309,7 @@ const projects = [
     ],
   },
 
+  /************************************************ */
   // Neon
   {
     category: "Neon",
@@ -384,7 +386,8 @@ const projects = [
         title: "تركيب يفطة مضيئة خارجية",
       },
 
-      {//11
+      {
+        //11
         image: "img/5b421280846e8e4c2b3ff6241bd505a4.jpg",
         alt: "يفطة نيون للمطاعم",
         title: "تركيب يفطة نيون للمطاعم",
@@ -426,30 +429,35 @@ const projects = [
       },
 
       {
+        //17
         image: "img/3d02fa9081d386186eacc1d74d4474d7.jpg",
         alt: "إضاءة واجهة تجارية",
         title: "تنفيذ إضاءة واجهة تجارية",
       },
 
       {
+        //18
         image: "img/57eb93dfee842e7129c2dc4fb781c3ff.jpg",
         alt: "يفطة مضيئة ثلاثية الأبعاد",
         title: "تركيب يفطة 3D مضيئة",
       },
 
       {
+        //19
         image: "img/591c1ad2a9f480458c322eb5b8ab162a.jpg",
         alt: "يفطة نيون خارجية",
         title: "تركيب يفطة نيون خارجية",
       },
 
       {
+        //20
         image: "img/4255db46b2d4cf53feb0b5c45ca7ffd1.jpg",
         alt: "يفط مضيئة",
         title: "تنفيذ وتركيب يفط مضيئة",
       },
 
       {
+        //21
         image: "img/eb04436c510531c4920a057622dbd09d.jpg",
         alt: "يفط مضيئة",
         title: "تنفيذ وتركيب يفط مضيئة",
@@ -457,22 +465,101 @@ const projects = [
     ],
   },
 
-  // Installation
+  /********************************************* */
+  //gypsum-lighting
   {
-    category: "installation",
-    title: "تركيب كهرباء",
+    category: "gypsum-lighting",
+    title: "إضاءة الجبس بورد",
 
     images: [
       {
-        image: "img/installation1.jpg",
-        alt: "تركيب كهرباء",
-        title: "تنفيذ أعمال التركيب",
+        image: "img/photo_2026-09-03_00-24-33.jpg",
+        alt: "سبوتات داخل الجبس بورد",
+        title: "تركيب سبوتات داخل الجبس بورد",
       },
 
       {
-        image: "img/installation2.jpg",
-        alt: "تركيب كهرباء",
-        title: "تركيب الأجهزة الكهربائية",
+        image: "img/photo_2026-09-03_00-24-26.jpg",
+        alt: "إضاءة LED داخل الجبس",
+        title: "تنفيذ إضاءة LED داخل الجبس",
+      },
+
+      {
+        image: "img/photo_2026-09-03_00-24-24.jpg",
+        alt: "إضاءة مخفية بالجبس بورد",
+        title: "تنفيذ إضاءة مخفية بالجبس بورد",
+      },
+
+      {
+        image: "img/photo_2026-09-03_00-24-23.jpg",
+        alt: "سبوتات سقف جبس بورد",
+        title: "تركيب سبوتات سقف جبس بورد",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        alt: "إضاءة ديكورية بالجبس",
+        title: "تنفيذ إضاءة ديكورية بالجبس",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+        alt: "إضاءة سقف جبس بورد",
+        title: "تنفيذ إضاءة سقف جبس بورد",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+        alt: "إضاءة LED مخفية",
+        title: "تركيب إضاءة LED مخفية",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        alt: "سبوتات وإضاءة LED",
+        title: "تنسيق السبوتات وإضاءة LED",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90",
+        alt: "إضاءة ديكورية",
+        title: "تنفيذ إضاءة ديكورية حديثة",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600573472550-8090b5e0745e",
+        alt: "إضاءة مخفية في السقف",
+        title: "تركيب إضاءة مخفية في السقف",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154",
+        alt: "سبوتات LED في الجبس",
+        title: "تركيب سبوتات LED في الجبس",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        alt: "إضاءة جبس بورد",
+        title: "تنفيذ إضاءة جبس بورد ديكورية",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        alt: "LED Profile داخل الجبس",
+        title: "تركيب LED Profile داخل الجبس",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87",
+        alt: "إضاءة جبس بورد حديثة",
+        title: "تركيب إضاءة حديثة بالجبس بورد",
+      },
+
+      {
+        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+        alt: "سبوتات وإضاءة مخفية",
+        title: "تنفيذ سبوتات وإضاءة مخفية",
       },
     ],
   },
@@ -498,22 +585,67 @@ const projects = [
   },
 ];
 
-/*=================== Selected Category ==============================*/
+/*=================== Create Cards ==============================*/
 
-// هات القيمة المخزنة في localStorage تحت مفتاح galleryCategory
+function displayProjects(projects) {
+  galleryGrid.innerHTML = "";
+
+  projects.forEach((project, index) => {
+    const card = document.createElement("div");
+
+    card.classList.add("work-card");
+
+    card.innerHTML = `
+      <img src="${project.image}" alt="${project.alt}">
+
+      <div class="work-overlay">
+        <div>
+          <span>${project.category}</span>
+          <h3>${project.title}</h3>
+        </div>
+      </div>
+    `;
+
+    galleryGrid.appendChild(card);
+
+    card.addEventListener("click", () => {
+      openLightbox(index);
+    });
+  });
+}
+
+/*=================== Selected Category ==============================*/
+//هروح اجيب الكاتجوري من اللوكال استورتج والله لو كان بيساوي All
+//هبدا اضيف الصور بالتايتل بتاعها  جوا الاراي الي اسمها جالري
+//طب لو اي حاجه تاني هبدا اقارن الكاتجوري الي جبتو من اللوكال استورتج
+//ب الي عندي عن طريق فايند لو زي بعض هظهرلك الصور بتاعت الكاتجوري
 const selectedCategory = localStorage.getItem("galleryCategory");
 
-// دور جوه Array اسمها projects
-const selectedProject = projects.find((project) => {
-  // قارن category بتاعة العنصر الحالي بالقيمة اللي المستخدم اختارها
-  // لو الاتنين متساويين، find() هترجع العنصر ده
-  return project.category === selectedCategory;
-});
+let galleryProjects = [];
 
-// لو selectedProject موجود
-// هات الصور الموجودة جواه
-// ولو مش موجود، خلي galleryProjects Array فاضية
-const galleryProjects = selectedProject ? selectedProject.images : [];
+/****************** Display All Images ***************************/
+
+if (selectedCategory === "all") {
+  projects.forEach((project) => {
+    project.images.forEach((image) => {
+      galleryProjects.push({
+        ...image,
+        category: project.title,
+      });
+    });
+  });
+
+  displayProjects(galleryProjects);
+  
+} else {
+
+  const selectedProject = projects.find((project) => {
+    return project.category === selectedCategory;
+  });
+
+  galleryProjects = selectedProject ? selectedProject.images : [];
+  displayProjects(galleryProjects);
+}
 /*=================== Slider ==============================*/
 
 // رقم الصورة الحالية
@@ -527,7 +659,6 @@ let isPlaying = false;
 
 function showImage() {
   const project = galleryProjects[currentIndex];
-
   lightboxImg.style.opacity = "0";
 
   setTimeout(() => {
@@ -586,32 +717,6 @@ function showPrev() {
 
   showImage();
 }
-
-/*=================== Create Cards ==============================*/
-
-galleryProjects.forEach((project, index) => {
-  const card = document.createElement("div");
-
-  card.classList.add("work-card");
-
-  card.innerHTML = `
-    <img src="${project.image}" alt="${project.alt}">
-
-    <div class="work-overlay">
-      <div>
-        <span>${selectedProject.title}</span>
-        <h3>${project.title}</h3>
-      </div>
-    </div>
-  `;
-
-  galleryGrid.appendChild(card);
-
-  // فتح الصورة
-  card.addEventListener("click", () => {
-    openLightbox(index);
-  });
-});
 
 /*=================== Events ==============================*/
 
