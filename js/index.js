@@ -127,16 +127,17 @@ ${details}
 
 
 
+/**select card by arrow */
 
+const galleryLinks = document.querySelectorAll(".work-arrow");
 
+galleryLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    const category = link.dataset.category;
 
-
-
-
-
-
-
-
+    localStorage.setItem("galleryCategory", category);
+  });
+});
 
 
 

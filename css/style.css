@@ -545,21 +545,36 @@ video {
   margin-top: 6px;
 }
 
+/* Work Arrow */
 .work-arrow {
-  width: 45px;
-  height: 45px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: var(--yellow);
-  color: var(--bg-void);
+  gap: 8px;
+  padding: 10px 16px;
+  color: #fff;
+  background: rgba(99, 74, 6, 0.12);
+  border: 1px solid rgba(144, 108, 9, 0.45);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
   text-decoration: none;
-  font-size: 22px;
-  transform: translateY(15px);
-  transition: 0.4s;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
 }
 
+.work-arrow:hover {
+  color: var(--yellow-dark);
+  background: var(--bg-card);
+  border-color: var(--yellow);
+
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(90, 67, 3, 0.2);
+}
+
+.work-arrow:hover {
+  gap: 12px;
+}
 .work-card:hover .work-arrow {
   transform: translateY(0);
 }
