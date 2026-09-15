@@ -288,6 +288,7 @@ const projects = [
 
       {
         //10
+
         image: "img/969b0137dfe2e3ed984ea92d2314ab86.jpg",
         alt: "تركيب الفلكسبل الكهربائي",
         title: "تركيب الفلكسبل الكهربائي",
@@ -295,7 +296,7 @@ const projects = [
 
       {
         //11
-        image: "img/ed17286aa67602eb872c57c7c41d7858.jpg",
+        image: "img/ccc676a0d989fab2c31bc93c7f650176.jpg",
         alt: "تمديدات كهربائية للمباني",
         title: "تمديدات كهربائية للمباني",
       },
@@ -553,13 +554,13 @@ const projects = [
       },
 
       {
-        image: "img/1863722ab52f6e61706ffbbb7a39b6c2.jpg",
+        image: "img/63cf6ea33463dbbf3f14a1616f5b3318.jpg",
         alt: "LED Profile داخل الجبس",
         title: "تركيب LED Profile داخل الجبس",
       },
 
       {
-        image: "img/63cf6ea33463dbbf3f14a1616f5b3318.jpg",
+        image: "img/1863722ab52f6e61706ffbbb7a39b6c2.jpg",
         alt: "إضاءة جبس بورد حديثة",
         title: "تركيب إضاءة حديثة بالجبس بورد",
       },
@@ -574,20 +575,94 @@ const projects = [
 
   // Maintenance
   {
-    category: "maintenance",
-    title: "صيانة أعطال",
+    category: "Genral",
+    title: "اضاءه درج سلم وحوائط",
 
     images: [
       {
-        image: "img/maintenance1.jpg",
-        alt: "صيانة كهربائية",
-        title: "صيانة الأعطال الكهربائية",
+        //1
+        image: "img/2dc4c394824dca5e7dd6f8835538cbb1.jpg",
+        alt: "إضاءة حائطية",
+        title: "تركيب وتوزيع وحدات إضاءة حائطية",
       },
 
       {
-        image: "img/maintenance2.jpg",
-        alt: "صيانة كهربائية",
-        title: "إصلاح الأعطال الكهربائية",
+        //2
+        image: "img/0e952627f465ef8e5fc69a617eb52458.jpg",
+        alt: "إضاءة جانبية",
+        title: "تركيب إضاءات جانبية للحوائط",
+      },
+
+      {
+        //3
+        image: "img/9804c49cca21d981c8df67a4b196c2ba.jpg",
+        alt: "إضاءة حائطية",
+        title: "تنفيذ إضاءة ديكورية جانبية للحائط",
+      },
+
+      {
+        //4
+        image: "img/60e1accc26bf632b0e3ee162d86ad69c.jpg",
+
+        alt: "إضاءة حائطية",
+        title: "تركيب وحدات إضاءة حائطية داخلية",
+      },
+
+      {
+        //5
+        image: "img/929da94c7fc8f24f026f288264a23d93.jpg",
+        alt: "إضاءة جانبية",
+        title: "توزيع إضاءة جانبية لإبراز تفاصيل الحائط",
+      },
+
+      {
+        //6
+        image: "img/5f145db101af307d04b6830bad3f83d3.jpg",
+        alt: "إضاءة حائطية",
+        title: "تركيب إضاءات حائطية ديكورية",
+      },
+
+      {
+        //7
+
+        image: "img/39fec1fff80b5dacd201f0325e763a82.jpg",
+        alt: "إضاءة درج",
+        title: "تركيب إضاءة جانبية لدرج السلم",
+      },
+
+      {
+        //8
+        image: "img/7bb491224b2b9305abd390bf81c41ca2.jpg",
+        alt: "إضاءة درج",
+        title: "تنفيذ إضاءة ديكورية لدرج السلم",
+      },
+
+      {
+        //9
+        image: "img/5eb84ede46c24d8d63a011ba1c69564e.jpg  ",
+        alt: "إضاءة سلم",
+        title: "تركيب وحدات إضاءة على جانبي السلم",
+      },
+
+      {
+        //10
+        image: "img/cb83f83a23ef471394d198a401ea5eb9.jpg ",
+        alt: "إضاءة درج",
+        title: "توزيع إضاءة جانبية لدرجات السلم",
+      },
+
+      {
+        //11
+        image: "img/e7ce94e37b827d02c901d556aa77586b.jpg",
+        alt: "إضاءة سلم",
+        title: "تنفيذ إضاءة حائطية بجانب درج السلم",
+      },
+
+      {
+        //12
+        image: "img/cdaeca87b6d9c127a58891272acf18bd.jpg",
+        alt: "إضاءة درج",
+        title: "تركيب إضاءة ديكورية لدرج داخلي",
       },
     ],
   },

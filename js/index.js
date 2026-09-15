@@ -114,15 +114,12 @@ contactForm.addEventListener("submit", function (e) {
 ${details}
 `;
 
-  const whatsappNumber = "201206591193";
+  const whatsappNumber = "201200011791";
 
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappURL, "_blank");
 });
-
-
-
 
 /** Select card by arrow */
 
@@ -136,9 +133,7 @@ galleryLinks.forEach((link) => {
   });
 });
 
-
 /******************************************************** */
-
 
 /** All Works */
 
